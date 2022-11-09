@@ -1,0 +1,28 @@
+html {
+    background-color: black;
+}
+
+.navbar {
+    margin-top: 25px;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(119, 136, 153, 0.296);
+}
+ h1 {
+    position: relative;
+    top: 25px;
+    color: white;
+ }
+
+ #modal-placement {
+    background-color: rgba(119, 136, 153, 0.296);
+    position: relative;
+    top: 90px;
+    height: 200px;
+ }
+
+ p {
+    color: white
+ }
