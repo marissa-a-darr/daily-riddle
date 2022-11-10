@@ -28,8 +28,17 @@
     </header>
 
     <main>
-        <div class="container" id="modal-placement">
-            <p>This is the div where our modal will be located.</p>
+        <div class="container" id="card-placement">
+            <form>
+                <div class="row">
+                  <div class="twelve columns">
+                    <label for="exampleEmailInput">What is the riddle of the day?</label>
+                    <span class="u-full-width" id="riddleBox"></span>
+                  </div>
+                <label for="exampleMessage">Answer:</label>
+                <textarea class="eleven columns" placeholder="Type your answer here..." id="userAnswer"></textarea>
+                <input class="button-primary" id=submitBtn type="submit" value="Check Answer">
+              </form>
         </div>
     </main>
 <script src="assets/script.js"></script>    
