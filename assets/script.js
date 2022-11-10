@@ -18,7 +18,7 @@ var currentDate = moment().format('YYYY-MM-DD')
 
 var apiKey = "zD9N5mFUi2w04iTPmyfGTA==pEywnq16I5S1oOLc";
 
-var riddleQuestion = document.getElementById("riddle-question");
+var riddleQuestion = document.getElementById("riddleBox");
 //  var userAnswer = document.getElementById('')
 
 fetch("https://api.api-ninjas.com/v1/riddles", {
