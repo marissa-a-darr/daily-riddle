@@ -1,6 +1,5 @@
 html {
     background-color: black;
-    background-image: url(https://apod.nasa.gov/apod/image/2211/wr18_woronow_960.jpg);
 }
 
 .navbar {
@@ -9,32 +8,21 @@ html {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.613);
+    background-color: rgba(119, 136, 153, 0.296);
 }
  h1 {
     position: relative;
     top: 25px;
-    color: black;
+    color: white;
  }
 
- #card-placement{
-    background-color: rgba(255, 255, 255, 0.613);
-    margin-top: 55px;
- }
-
- textarea {
-    margin-left: 10px;
-    margin-right: 50px;
-    resize: none;
- }
-
- .button-primary{
-    margin: 0;
+ #modal-placement {
+    background-color: rgba(119, 136, 153, 0.296);
     position: relative;
-    top: 78%;
-    left: 41%
+    top: 90px;
+    height: 200px;
  }
 
- label {
-    margin-left: 3px;
+ p {
+    color: white
  }
