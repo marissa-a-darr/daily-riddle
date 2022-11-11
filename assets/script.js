@@ -2,6 +2,7 @@ var apiKey = "zD9N5mFUi2w04iTPmyfGTA==pEywnq16I5S1oOLc";
 
 var riddleQuestion = document.getElementById("riddleBox");
 //  var userAnswer = document.getElementById('')
+var todayDate= moment().format("MM/D/YY")
 
 fetch("https://api.api-ninjas.com/v1/riddles", {
   mode: "cors",
@@ -18,6 +19,9 @@ fetch("https://api.api-ninjas.com/v1/riddles", {
   })
   .then(function (data) {
     for (var i = 0; i < data.length; i++) {
-      riddleQuestion.textContent = data[i].question;
+      var todaysRiddle = data[i].question;
+      riddleQuestion.textContent = todaysRiddle
     }
+    
+   localStorage.setItem("todaysRiddle", todayDate);
   });
