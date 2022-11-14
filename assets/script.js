@@ -39,3 +39,19 @@ fetch("https://api.api-ninjas.com/v1/riddles", {
       riddleQuestion.textContent = data[i].question;
     }
   });
+
+
+  /*
+
+  Example URLs to work with:
+  Base url:  https://v2.jokeapi.dev/joke/any?format=JSON&type=twopart&safe-mode 
+  Any jokes, 10 responses: https://v2.jokeapi.dev/joke/any?format=JSON&type=twopart&safe-mode
+
+  Programming: https://v2.jokeapi.dev/joke/programming?format=JSON&type=twopart&safe-mode 
+  add "&amount=2" for more than one joke
+  Misc: https://v2.jokeapi.dev/joke/misc?format=JSON&type=twopart&safe-mode
+  Pun: https://v2.jokeapi.dev/joke/pun?format=JSON&type=twopart&safe-mode
+  Spooky: https://v2.jokeapi.dev/joke/spooky?format=JSON&type=twopart&safe-mode
+  Christmas: https://v2.jokeapi.dev/joke/christmas?format=JSON&type=twopart&safe-mode
+
+  */
