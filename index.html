@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Riddle</title>
+    <title>Joke Search</title>
 
 <!-- Mobile Specific Metas––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <nav class="navbar"> 
-                    <h1>Tricky Riddle</h1>
+                    <h1>Joke Search</h1>
                 </nav>
                 </div>    
              <hr class="menu-divider">
@@ -34,13 +34,22 @@
         <form>
             <div class="row">
               <div class="twelve columns">
-                <h2 for="exampleEmailInput">What is the riddle of the day?</h2>
-                <span class="u-full-width" style="font-weight:bold; text-align: center; font-size: 20px;" id="riddleBox"></span>
+                <h2 for="exampleEmailInput">Search for a joke!</h2>
               </div>
-            <h3 for="exampleMessage">Answer:</h3>
-            <textarea class="eleven columns" placeholder="Type your answer here..." id="userAnswer"></textarea>
-            <input class="button-primary" id=submitBtn type="submit" value="Check Answer">
-          </form>
+            <h3 for="exampleMessage"></h3>
+            <input class="five columns" style="height: 4rem;" placeholder="Search by keyword..." id="searchInput"></input>
+            <select id="format-input" class = "form-input three columns">
+              <option value="" disabled selected>Select a category...</option>
+              <option value="Any">Any</option>
+              <option value="Programming">Programming</option>
+              <option value="Misc">Misc</option>
+              <option value="Pun">Pun</option>
+              <option value="Spooky">Spooky</option>
+              <option value="Christmas">Christmas</option>
+            </select>
+            <input class="button-primary three columns" id=submitBtn type="submit" value="Get Joke"> 
+          </form><br>
+          <div><span class="twelve columns" style="font-weight:bold; text-align: center; font-size: 20px;" id="riddleBox"></span></div>
     </div>
     </main>
     <!-- Added link to the moment library -->
