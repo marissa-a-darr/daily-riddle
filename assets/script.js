@@ -1,4 +1,4 @@
-var spaceBackground = $('body');
+var spaceBackground = $('html');
 
 var currentDate = moment().format('YYYY-MM-DD')
 // console.log(currentDate);
