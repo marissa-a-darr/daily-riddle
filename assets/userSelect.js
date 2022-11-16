@@ -1,6 +1,8 @@
 // joke type: pun
-var punUrl = "https://v2.jokeapi.dev/joke/pun?format=JSON&type=twopart&safe-mode"
 var formatInputVal = document.querySelector('#format-input').value;
+var jokeApi = "https://v2.jokeapi.dev/joke/"+ formatInputVal +"?format=JSON&type=twopart&safe-mode"
+// console.log(jokeApi);
+
 
 function userWantsPun () {
 if (formatInputVal==="Pun") {
@@ -57,8 +59,8 @@ if (formatInputVal==="Christmas") {
 var btn = $("#submitBtn")
 
 function getJoke(event) {
-    event.preventDefault
-
+    userWantsChristmas();
+    // event.preventDefault
     // first check the search parameters from the user input box and stringify it for the search api
     // then run the search api
     // default error, give the user a result of any search so they at least get a joke (a lot of jokes aren't in the database)
