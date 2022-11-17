@@ -1,32 +1,35 @@
+/* css styling for nasa daily photo to fill full screen */
 body {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100%vh
 }
-
+/* top nav with space on top of it and centered text */
 .navbar {
     margin-top: 25px;
     text-align: center;
 }
-
+/* adds transparency to title*/
 header {
     background-color: rgba(255, 255, 255, 0.707);
 }
+/*title text properties */
  h1 {
     position: relative;
     top: 25px;
     color: black;
  }
-
+/* properies for search tool elements */
  h2, h3 {
     font-size: 30px;
  }
-
+/* holds main content in middle of cage */
  .container {
     text-align: center;
  }
-
+/* transparency and position on page */
  #card-placement{
     background-color: rgba(255, 255, 255, 0.707);
     margin-top: 55px;
@@ -44,7 +47,4 @@ header {
     margin-left: 3px;
  }
 
- body {
-   height: 100%vh
-   ;
- }
+ 

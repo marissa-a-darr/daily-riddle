@@ -34,11 +34,13 @@
         <form>
             <div class="row">
               <div class="twelve columns">
-                <h2 for="exampleEmailInput">Search for a joke!</h2>
+                <!-- user area search for joke -->
+                <h2 for="exampleEmailInput">Search for a joke!</h2> 
               </div>
             <h3 for="exampleMessage"></h3>
             <input class="five columns userSearch" style="height: 4rem;" placeholder="Search by keyword..." id="searchInput"></input>
             <select id="format-input" class = "form-input three columns">
+              <!-- form input for joke categories -->
               <option value="default" disabled selected>Select a category...</option>
               <option value="Any">Any</option>
               <option value="Programming">Programming</option>
@@ -50,8 +52,11 @@
             <input class="button-primary three columns" id=submitBtn type="submit" value="Get Joke"> 
           </form><br>
           <div><span class="twelve columns" style="font-weight:bold; text-align: center; font-size: 20px;" id="riddleBox">
-            <div class="errorMess"></div>
+            <!-- displays no joke found -->
+            <div class="errorMess"></div> 
+            <!-- displays joke setup line -->
             <div class="jokeSetup"></div>
+            <!-- displays joke punch line -->
             <div class="jokePunch"></div>
           </span></div>
     </div>
