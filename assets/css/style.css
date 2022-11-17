@@ -2,8 +2,6 @@
 body {
     width: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 100%vh
 }
 /* top nav with space on top of it and centered text */
